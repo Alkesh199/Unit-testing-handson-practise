@@ -232,6 +232,7 @@ export class BasicDetails extends LocalizeMixin(LitElement) {
     const basic = { name: _name, amount: _amount, period: _period };
     // eslint-disable-next-line no-console
     console.log(basic);
+   
     // e.preventDefault();
 
     fetch('https://loanfeapi.herokuapp.com/calculate-emi', {
